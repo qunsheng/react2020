@@ -4,9 +4,9 @@ Create server side app for react app to connect
 
 ## Create app
 
-`mkdir step002_create_express_server`
+`mkdir step004_server_serve_static_file`
 
-`cd step002_create_express_server`
+`cd step004_server_serve_static_file`
 
 Run `npm init`
 
@@ -16,4 +16,4 @@ Create index.js
 
 Run `node index.js`
 
-Open `http://localhost:4000`
+Open `http://localhost:4000/api/data/hello.json`
