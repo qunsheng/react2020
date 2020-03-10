@@ -1,15 +1,15 @@
-# Step 0006: client get server data
+# Step 0007: unit test for data object
 
-create new app step006same as step1
+create new app step007_unit_test_obj same as step1
 
-`cd step006_client_get_server_data`
+`cd step007_unit_test_data_obj`
 
 Run `npm install`
 
-Run `npm install axios --save`
+write a new method in AppData.js
 
-Rewrite app as class based component. Implement axios example. Go to step005 server location debug mode, run "Launch Server" to start server.
+write a unit test file AppData.test.js
 
-Run `npm start`
+Run `npm test`
 
-You can see the client talk to server and update page.
+You can see the unit test checked data object returned object equal expected object.
