@@ -1,9 +1,10 @@
 {
-  "name": "step002_create_express_server",
+  "name": "step005_vscode_server_launching",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   },
   "devDependencies": {},

@@ -12,4 +12,6 @@ You can delete node_modules to help code pickup the changes
 
 Run `npm install`
 
-Run `npm start`
+Run `npm start` to run app
+
+Run `npm test` to test app

@@ -12,6 +12,8 @@ Run `npm init`
 
 Run `npm install express --save`
 
+Run `npm install cors --save`
+
 Create server.js and save_file.js
 
 Open folder with vscode

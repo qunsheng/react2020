@@ -1,5 +1,5 @@
 {
-  "name": "step002_create_express_server",
+  "name": "step004_server_serving_static_file",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
