@@ -2,22 +2,7 @@ import React from "react";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
-import UiLink from "@material-ui/core/Link";
-import ProTip from "./ProTip";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {"Copyright © "}
-      <UiLink color="inherit" href="https://material-ui.com/">
-        Your Website
-      </UiLink>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
 
 export default function App() {
   return (
@@ -27,8 +12,6 @@ export default function App() {
           <Typography variant="h4" component="h1" gutterBottom>
             React App example
           </Typography>
-          <ProTip />
-          <Copyright />
         </Box>
         <Router>
           <div>
