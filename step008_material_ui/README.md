@@ -1,4 +1,4 @@
-# Step 0008: Material UI
+# Step 0008: Material UI and JSS
 
 create new app as step1
 
@@ -18,6 +18,8 @@ Run `npm start`
 
 This project was bootstrapped (https://github.com/facebook/create-react-app).
 
-Stop the application, copy the Material UI code into public and src folder
+Stop the application, copy the Material UI code into public and src folder.
+
+See ProIip.js for JSS example.
 
 Run `npm start` again
