@@ -20,6 +20,6 @@ This project was bootstrapped (https://github.com/facebook/create-react-app).
 
 Stop the application, copy the Material UI code into public and src folder.
 
-See ProIip.js for JSS example.
+See ProIip.js for JSS (JavaScript Style) example.
 
 Run `npm start` again
