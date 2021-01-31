@@ -1,5 +1,6 @@
 import React, { forwardRef} from "react";
 
+import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 
@@ -43,7 +44,7 @@ const tableIcons = {
 
 export default function App() {
   return (
-    <div>
+    <Container maxWidth="lg">
         <Box my={4}>
           <Typography variant="h4" component="h1" gutterBottom>
             React App example
@@ -129,18 +130,6 @@ export default function App() {
             selection: true,
           }}
         />
-    </div>
+    </Container>
   );
-}
-
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
 }
