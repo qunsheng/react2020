@@ -4,6 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import Link from "@material-ui/core/Link";
 import ProTip from "./ProTip";
+import ProTip2 from './ProTip2';
 
 function Copyright() {
   return (
@@ -23,9 +24,10 @@ export default function App() {
     <Container maxWidth="sm">
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
-          Create React App example
+          React App example
         </Typography>
         <ProTip />
+        <ProTip2 />
         <Copyright />
       </Box>
     </Container>
