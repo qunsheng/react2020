@@ -22,6 +22,7 @@ function Copyright() {
 export default function App() {
   return (
     <Container maxWidth="sm">
+      {/* box with margin at y direction */}
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
           React App example

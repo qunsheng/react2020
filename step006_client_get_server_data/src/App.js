@@ -1,24 +1,41 @@
 import React from "react";
-import AppData from "./AppData";
+import HelloApp1 from './HelloApp1';
+import HelloApp2 from './HelloApp2';
 
 class App extends React.Component {
+  
   constructor(props) {
-    super();
-    this.appDataObj = new AppData();
-    this.state = { data: { name: "unknown", action: "unknown" } };
+      super(props);
+      this.state = {
+          helloDefault: true
+      }
   }
+
+  toggleDefault = () => {
+      // if setState parameter is function, the prevSate obj will passed in
+      this.setState( prevState => {
+          // return new state
+          return { helloDefault: !prevState.helloDefault}
+      })
+  }
+
   render() {
+    const { helloDefault } = this.state;
     return (
       <div>
-        <p>name: {this.state.data.name || ""} </p>
-        <p>action: {this.state.data.action || ""} </p>
+        <div>
+          <button onClick = {this.toggleDefault}> Swith Hello App</button>
+        </div>
+        {helloDefault? <div>
+            <p> From Hello App 1</p>
+            <HelloApp1 />
+          </div>: <div>
+            <p> From Hello App 2</p>
+            <HelloApp2 />
+          </div>
+        }
       </div>
     );
-  }
-  componentDidMount() {
-    this.appDataObj
-      .dataQuery("hello.json")
-      .then(data => this.setState({ data }));
   }
 }
 
