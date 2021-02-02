@@ -18,6 +18,12 @@ export default function App() {
             <nav>
               <ul>
                 <li>
+                  {/* 
+                  Option to  use NavLink.
+                  The <NavLink> component is similar to the <Link> component, except that 
+                  several props can be specified that help you to conditionally add styling 
+                  attributes to the rendered element.
+                   */}
                   <Link to="/">Home</Link>
                 </li>
                 <li>
