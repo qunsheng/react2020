@@ -55,3 +55,7 @@ console.log("higer order functions && arrays ");
 //     .reduce( (total, age) => total + age);
 // console.log("combined: ", combined);
 
+// find
+// const found = companies.find(c => c.name === 'Company Four' );
+// console.log("Company name Company Four: ", found);
+
