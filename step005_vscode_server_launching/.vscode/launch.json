@@ -16,6 +16,14 @@
       "name": "Save File",
       "program": "${workspaceFolder}\\save_file.js",
       "console": "internalConsole"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "HighOrderFuctions",
+      "program": "${workspaceFolder}\\higher_order_functions.js",
+      "outputCapture": "std", //make console.log work, otherwise not print debug message properly
+      "console": "internalConsole"
     }
   ]
 }
