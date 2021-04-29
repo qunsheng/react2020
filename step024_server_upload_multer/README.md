@@ -8,6 +8,6 @@ Run `npm install --save express nulter cors`
 
 add code to app.js
 
-nodemaon
+nodemon
 
 
