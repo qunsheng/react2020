@@ -4,7 +4,7 @@ create directory
 
 Run `npm init`
 
-Run `npm install --save express nulter cors`
+Run `npm install --save express multer cors`
 
 add code to app.js
 
