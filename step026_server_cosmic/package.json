@@ -1,10 +1,10 @@
 {
-  "name": "step024_server_upload_multer",
+  "name": "step026_server_cosmic",
   "version": "1.0.0",
-  "description": "upload using node.js",
+  "description": "cosmic node.js",
   "main": "app.js",
   "scripts": {
-    "start": "set NODE_ENV=dev && node app.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
