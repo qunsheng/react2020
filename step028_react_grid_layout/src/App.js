@@ -67,8 +67,6 @@ export default class ToolboxLayout extends React.Component {
           <div className="hide-button" onClick={this.onPutItem.bind(this, l)}>
             &times;
           </div>
-
-
           <div style={{
                     color: "green",
                     height: "90%",
@@ -77,36 +75,24 @@ export default class ToolboxLayout extends React.Component {
                     overflow: "auto"
                   }}
           >
-
-          {l.static ? (
-            <span
-              className="text"
-              title="This item is static and cannot be removed or resized."
-            >
-              Static - {l.i}
-            </span>
-          ) : (
-            <span className="text">{l.i}</span>
-          )}
-          xxxxxxxxxxxxxxxx11111111111111111133333333333333333333333333333333333333333333333333333333
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            55555555555555555555
+            {l.static ? (
+              <span
+                className="text"
+                title="This item is static and cannot be removed or resized."
+              >
+                Static - {l.i}
+              </span>
+            ) : (
+              <span className="text">{l.i}</span>
+            )}
             <br></br>
           </div>
-
         </div>
       );
     });
   }
 
   onBreakpointChange = breakpoint => {
-    console.log("================= on break point change");
     this.setState(prevState => ({
       currentBreakpoint: breakpoint,
       toolbox: {
@@ -120,7 +106,6 @@ export default class ToolboxLayout extends React.Component {
   };
 
   onCompactTypeChange = () => {
-    console.log("================= onCompactTypeChange");
     const { compactType: oldCompactType } = this.state;
     const compactType =
       oldCompactType === "horizontal"
@@ -170,7 +155,6 @@ export default class ToolboxLayout extends React.Component {
   };
 
   onLayoutChange = (layout, layouts) => {
-    console.log("=================  onLayoutChange");
     this.props.onLayoutChange(layout, layouts);
     this.setState({ layouts });
   };
@@ -182,8 +166,6 @@ export default class ToolboxLayout extends React.Component {
   };
 
   render() {
-    console.log("============= render state: ", this.state );
-    console.log("============= this.props: ", this.props );
     return (
       <div>
         <div>
