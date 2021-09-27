@@ -34,7 +34,6 @@ export default class ResponsiveLocalStorageLayout extends React.PureComponent {
   }
 
   onLayoutChange(layout, layouts) {
-    console.log("=================== on layout change: call saveToLS ", layouts);
     saveToLS("layouts", layouts);
     this.setState({ layouts });
   }
@@ -74,7 +73,6 @@ export default class ResponsiveLocalStorageLayout extends React.PureComponent {
 }
 
 function getFromLS(key) {
-  console.log("======================== get from ls: ", key)
   let ls = {};
   if (global.localStorage) {
     try {
@@ -83,15 +81,10 @@ function getFromLS(key) {
       /*Ignore*/
     }
   }
-  console.log("======================== get from ls: ",  ls[key])
   return ls[key];
 }
 
 function saveToLS(key, value) {
-  console.log("================ save to ls: key: ", key);
-  console.log("================ save to ls: value: ", value);
-  
-
   if (global.localStorage) {
     global.localStorage.setItem(
       "rgl-8",
