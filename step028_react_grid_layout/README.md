@@ -1,4 +1,4 @@
-# Step 028: create user list app
+# Step 028: create grip layout
 
 copy code from step022
 
