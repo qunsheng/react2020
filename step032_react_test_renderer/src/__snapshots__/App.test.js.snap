@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a single user 1`] = `
+<div>
+  <p />
+  <div>
+    <h1
+      data-testid="resolved"
+    >
+       User List 
+    </h1>
+    <button
+      onClick={[Function]}
+    >
+       Append next user page
+    </button>
+    <div>
+      <p>
+        <img
+          alt=""
+          src="https://randomuser.me/api/portraits/med/men/3.jpg"
+        />
+         
+        Mr Ethan Simmons
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render app with loading message 1`] = `
+<div>
+  <p />
+  <span
+    data-testid="loading"
+  >
+    Loading data...
+  </span>
+</div>
+`;
