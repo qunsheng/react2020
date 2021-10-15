@@ -1,15 +1,10 @@
-# Step 030: test with react-test-library
+# Step 033: css grid
 
-Use yarn create react-app to make sure pickup latest react version
-
-## Create app
-
-Run: `yarn create react-app step030_react_test_library` to create app
-
-`cd step030_react_test_library`
+Copy code from step 030
 
 Run `npm install`
 
+modify the code
+
 Run `npm start` to run app
 
-Run `npm test` to test app
